@@ -1,0 +1,153 @@
+body{
+	 margin: 0;
+	 padding: 0;
+	 
+	 font-family: sans-serif; 
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #3679b5;
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  top: 3%;
+  left: 3.5%;
+  position: absolute;
+}
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  font-size: 25px;
+  top: 17%;
+  left: 2%;
+  position: absolute;
+  background: transparent;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: none;
+  width: 75%;
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+/* Footer */
+.footer {
+   position: fixed;
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #3679b5;
+ 
+  
+}
+
+.footer a {
+  text-decoration: none; 
+  color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.logo {
+   
+   float: left;
+}
+
+
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #3679b5;
+    overflow: hidden;
+    left: 35%;
+    top: 0;
+    position: absolute;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #0a60ad;
+    
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: white;
+    color: black;
+}
+
+
+
+body{
+   margin: 0;
+   padding: 0;
+   background: url(../images/1.jpg);
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif; 
+}
+
+.quest{
+  width: 600px;
+  height: 500px;
+  top: 20%;
+  left:30%;
+  position: absolute;
+  color: white;
+}
+
+.quest p{
+  color: white;
+}
+
+
+
+h1{
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  color: #515a5a;
+
+}
+
+
+  
